@@ -25,7 +25,7 @@ export const headerData = [
 	//     href:"providers"
 	// },
 	{
-		title: "Programs",
+		title: "Program",
 		href: PROGRAMS,
 	},
 	{

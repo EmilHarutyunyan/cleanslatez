@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import image2 from "../../../public/assets/images/medical.png";
+import image2 from "../../../public/assets/images/medical.webp";
 import { DONATE_NOW } from "../router/routerPath";
 import classes from "./HomeHeaderWrap.module.css";
 
@@ -20,14 +20,10 @@ function HomeHeaderWrap({ children }) {
 					</div>
 					<div className={classes.middleRight}>
 						<h1 className={classes.middlePart1}>
-							Help us wipe out medical bills for just a few cents. The
-							collective power of us working together is unstoppable.
+							Help us wipe out medical bills. 
 						</h1>
-						<div className={classes.middlePart}>
-							<div className={classes.middlePart2}>
-								For every $100 given, up to $10,000 in medical bills go away.
-							</div>
-						</div>
+						<p className={classes.middlePart1}> The collective power of us working together is unstoppable.</p>
+						
 					</div>
 				</div>
 				<div className={classes.below}>

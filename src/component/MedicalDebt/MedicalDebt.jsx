@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { useMemo } from "react";
-import Image24 from "../../../public/assets/images/Image24.png";
+import Image24 from "../../../public/assets/images/Image24.webp";
 import classes from "./MedicalDebt.module.css";
 import { medicalDate } from "./medicalDate";
 const MedicalDebt = () => {
@@ -21,8 +21,8 @@ const MedicalDebt = () => {
 				</h2>
 				<div className={classes.subTitle}>
 					Take a deep dive into the cascading effects of medical debt, an
-					often-unseen crisis. This isn&apos;t just about bills—it&apos;s about lives,
-					livelihoods, and long-term health repercussions.
+					often-unseen crisis. This isn&apos;t just about bills—it&apos;s about
+					lives, livelihoods, and long-term health repercussions.
 				</div>
 				<div className={classes.whole}>{render}</div>
 				<div className={classes.imgDiv}>

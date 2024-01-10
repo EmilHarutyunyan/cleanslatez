@@ -12,7 +12,7 @@ export default function Home() {
 	return (
 		<>
 			<HomeHeaderWrap>
-				<Header />
+				<Header/>
 			</HomeHeaderWrap>
 			<main>
 				<MedicalDebt />

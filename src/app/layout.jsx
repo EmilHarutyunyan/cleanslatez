@@ -1,14 +1,14 @@
 import Script from "next/script";
 import logo from "../../public/assets/images/CleanSlateZ.svg";
+import medicalImg from "../../public/assets/images/medical.webp";
 import Footer from "../component/Footer";
-import medicalImg from "../../public/assets/images/medical.png"
 import "./globals.css";
 // const inter = Inter({ subsets: ['latin'],variable:'--inter' })
 export const metadata = {
 	title: "Clean SlateZ",
 	description: "",
-	keywords:"how to get medical bills forgiven, how to get rid of hospital debt, medical debt consolidation, pay off medical debt, how to get medical bills reduced, medical collection debt, help paying medical bills, debt collection medical bills"
-	
+	keywords:
+		"how to get medical bills forgiven, how to get rid of hospital debt, medical debt consolidation, pay off medical debt, how to get medical bills reduced, medical collection debt, help paying medical bills, debt collection medical bills",
 };
 
 export default function RootLayout({ children }) {
@@ -34,10 +34,7 @@ export default function RootLayout({ children }) {
 					property='og:description'
 					content='Offering financial relief to those struggling with medical debt.'
 				/>
-				<meta
-					property='og:image'
-					content={medicalImg.src}
-				/>
+				<meta property='og:image' content={medicalImg.src} />
 				<meta name='twitter:card' content='summary_large_image' />
 				<meta property='twitter:domain' content='cleanslatez.org' />
 				<meta property='twitter:url' content='https://cleanslatez.org/' />
@@ -46,10 +43,7 @@ export default function RootLayout({ children }) {
 					name='twitter:description'
 					content='Offering financial relief to those struggling with medical debt.'
 				/>
-				<meta
-					name='twitter:image'
-					content={medicalImg.src}
-				/>
+				<meta name='twitter:image' content={medicalImg.src} />
 
 				<link rel='icon' href='/favicon.svg' />
 

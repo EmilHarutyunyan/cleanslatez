@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import Image17 from "../../../public/assets/images/Image17.png";
+import Image from "next/image";
+import Image17 from "../../../public/assets/images/Image17.webp";
 import classes from "./DonateHelp.module.css";
 const DonateHelp = () => {
 	return (

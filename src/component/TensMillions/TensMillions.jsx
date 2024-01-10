@@ -1,5 +1,5 @@
 import Image from "next/image";
-import medicalImg from "../../../public/assets/images/help-with-medical-bills.png";
+import medicalImg from "../../../public/assets/images/help-with-medical-bills.webp";
 import classes from "./TensMillions.module.css";
 const TensMillions = () => {
 	return (
@@ -19,8 +19,8 @@ const TensMillions = () => {
 								Medical debt is an all too familiar tale. A simple ER visit can
 								amount to several thousand dollars out of pocket even if you
 								have insurance coverage. Need a major surgery, a long hospital
-								stay, or have a chronic disease? You&apos;re talking serious money
-								that most people cannot afford to pay.
+								stay, or have a chronic disease? You&apos;re talking serious
+								money that most people cannot afford to pay.
 							</div>
 						</div>
 						<div className={classes.right}>

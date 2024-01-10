@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Image2 from "../../../public/assets/images/medical.png";
+import Image2 from "../../../public/assets/images/medical.webp";
 import { DONATE_NOW } from "../router/routerPath";
 import classes from "./DonateHeaderWrap.module.css";
 const DonateHeaderWrap = ({ children }) => {

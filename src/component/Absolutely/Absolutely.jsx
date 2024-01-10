@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import debtImg from "../../../public/assets/images/debt-collector-medical-bills.png";
+import debtImg from "../../../public/assets/images/debt-collector-medical-bills.webp";
 import { DONATE_NOW, PROGRAMS } from "../router/routerPath";
 import classes from "./Absolutely.module.css";
 
@@ -25,7 +25,7 @@ const Absolutely = () => {
 							<Link className={classes.here} href={PROGRAMS}>
 								here
 							</Link>{" "}
-							to learn about our programs that help individuals and families
+							to learn about our programs that helps individuals and families
 							recover financially from medical debt.
 						</div>
 						<div className={classes.text}>

@@ -106,12 +106,7 @@ export const initialState = 	[
 									"anticipate a range of 1 to 4 months after you have applied before we have full resolution.",
 							showAnswer:true
 					},
-					{
-							question:"I received a letter you relieved some debt, but I still have other debts.",
-							answer:"This means that we purchased and abolished your debt as part of our Wholesale program. We" +
-									" encourage you to submit an application for the remaining past due medical debt you have.",
-							showAnswer:true
-					},
+					
 					{
 							question:"My application was denied, what now?",
 							answer:"This means that the information we received the credit bureau does not match the" +
@@ -132,8 +127,8 @@ export const initialState = 	[
 					},
 					{
 							question:"What criteria do you use?",
-							answer:"We provide support for those whose total household income are at 400% or less of the " +
-									"federal poverty guidelines, or whose medical debt is 5% or more of their household annual " +
+							answer:"We provide support for those whose total household income are at 200% or less of the " +
+									"federal poverty guidelines, or whose medical debt is 2% or more of their household annual " +
 									"income.",
 							showAnswer:true
 					},
@@ -166,36 +161,5 @@ export const initialState = 	[
 							showAnswer:true
 					}
 					]
-	},
-	{
-			name:"Providers",
-			questions:[
-					{
-							question:"Will you purchase delinquent medical debt from my practice?",
-							answer:"Yes, we will work with you to review and analyze your outstanding medical debt. We will " +
-									"offer you a fair market value estimation to purchase the medical debt.",
-							showAnswer:true
-					},
-					{
-							question:"Does it matter what type of medical debt it is?",
-							answer:"No, as long as it is medical debt it can be any type of debt.\n",
-							showAnswer:true
-					},
-					{
-							question:"Does it matter how old the debt it is?",
-							answer:"No, as long as the debt is delinquent, we do not put aging parameters on the debt we " +
-									"purchase.",
-							showAnswer:true
-					},
-					{
-							question:"How am I benefiting financially?",
-							answer:"Immediate impacts are seen by providers. You will stop paying for mail and postage to send " +
-									"statements to patients that cannot pay. Stop the cost of outbound collection calls. Eliminate " +
-									"the calls from patients to your office to inquire about these past due bills. Stop dragging " +
-									"bad debt around on your balance sheet. Gives your collection team or agency more time to focus" +
-									" on truly collectable accounts.",
-							showAnswer:true
-					}
-			]
 	}
 ]

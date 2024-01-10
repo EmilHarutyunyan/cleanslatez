@@ -80,7 +80,7 @@ function Header() {
 						<Image src={Logo} alt={"logo"} />
 					</Link>
 					<div className={classes.burgerIcon} onClick={togglesDiv}>
-						<img src={BurgerMenu} alt={""} />
+						<Image src={BurgerMenu} alt={""} />
 					</div>
 				</div>
 				<div
